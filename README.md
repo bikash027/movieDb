@@ -1,16 +1,16 @@
 #### Given below are the steps to run the server
 - Create a virtual environment using the command
-    py -m venv env   (on windows)
-    python3 -m venv env   (on macOS and linux)
+    **py -m venv env**   (on windows)
+    **python3 -m venv env**   (on macOS and linux)
 - Activate the virtual environment using the command
-   .\env\scripts\activate   (on windows)
-   source env/bin/activate (on macOS and linux)
+   **.\env\scripts\activate**   (on windows)
+   **source env/bin/activate** (on macOS and linux)
 - Install the requirements using the command
-   pip install django djangorestframework
+   **pip install django djangorestframework**
  - Perform the migration using the command
-   python manage.py migrate
+   **python manage.py migrate**
  - Run the server with the command
-    python manage.py runserver
+    **python manage.py runserver**
 
 The API can be tested using the Browsable API or command line tools like httpie or curl
 ### httpie
