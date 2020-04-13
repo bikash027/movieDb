@@ -25,7 +25,7 @@ Open up another command prompt and do the following
 #### Delete
 	http -a [username]:[password] DELETE http://localhost:8000/movies/[id]/
 #### Update
-	http -a [username]:[password] http://localhost:8000/movies/ name="[name]" genre="[genre]" rating=[decimal like 8.8] date="[yyyy-mm-dd]"
+	http -a [username]:[password] PUT http://localhost:8000/movies/ name="[name]" genre="[genre]" rating=[decimal like 8.8] date="[yyyy-mm-dd]"
 (Have to be logged in  as the creator for delete and update)
 #### List of movies( with search and sort functionality)
 	http http://localhost:8000/movies/?search=[searchString]&sort-by=[name or date]
